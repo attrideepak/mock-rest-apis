@@ -2,13 +2,13 @@
 Mocking restful apis using JSON server. Mocking APIs using JSON server involves zero coding and requires minimal configuration.
 
 Steps to mock:
-1. Install JSON Server : npm install -g json-server
+1. Install JSON Server : ```npm install -g json-server```
 2. Create db.json file.
-3. Run JSon Server : json-server --watch db.json
+3. Run JSon Server : ```json-server --watch db.json```
 
 Sample db.json file.
 
-{
+```{
   "cars": [
     {
       "brand": "Tata",
@@ -129,5 +129,5 @@ Sample db.json file.
       "userComments": "Bad Car"
     }
   ]
-}
+}```
 
